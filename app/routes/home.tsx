@@ -5,7 +5,7 @@ import {usePuterStore} from "~/lib/puter";
 import {Link, useNavigate} from "react-router";
 import {useEffect, useState} from "react";
 import SplashCursor from '../components/SplashCursor';
-import ResumeGallery from '../components/ResumeGallery'
+
 
 export function meta({}: Route.MetaArgs) {
   return [
