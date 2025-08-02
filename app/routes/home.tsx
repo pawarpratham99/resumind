@@ -5,6 +5,7 @@ import {usePuterStore} from "~/lib/puter";
 import {Link, useNavigate} from "react-router";
 import {useEffect, useState} from "react";
 import SplashCursor from '../components/SplashCursor';
+import ResumeGallery from '../components/ResumeGallery'
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -66,7 +67,7 @@ export default function Home() {
           ))}
         </div>
       )}
-
+      <ResumeGallery/>
       {!loadingResumes && resumes?.length === 0 && (
           <div className="flex flex-col items-center justify-center mt-10 gap-4">
             <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
