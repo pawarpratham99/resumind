@@ -69,8 +69,9 @@ Make sure the following are installed on your machine:
 ### 🔗 Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer
+git clone https://github.com/pawarpratham99/ai-resume-analyzer.git
+
+cd resumind
 
 📦 Install Dependencies
 install node_modules 
@@ -81,7 +82,6 @@ install node_modules
 🧪 Run the App Locally
 
     npm run dev
-
 
 
 
