@@ -62,16 +62,12 @@ export default function Home() {
 
       {!loadingResumes && resumes.length > 0 && (
         <div className="resumes-section">
-          <div style={{ height: '600px', position: 'relative' }}>
-          
           {resumes.map((resume) => (
               <ResumeCard key={resume.id} resume={resume} />
           ))}
-
-          </div>
         </div>
       )}
-      
+
       {!loadingResumes && resumes?.length === 0 && (
           <div className="flex flex-col items-center justify-center mt-10 gap-4">
             <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
