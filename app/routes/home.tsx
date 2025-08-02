@@ -4,7 +4,7 @@ import ResumeCard from "~/components/ResumeCard";
 import {usePuterStore} from "~/lib/puter";
 import {Link, useNavigate} from "react-router";
 import {useEffect, useState} from "react";
-import SplashCursor from './SplashCursor';
+import SplashCursor from '../components/SplashCursor';
 
 export function meta({}: Route.MetaArgs) {
   return [
