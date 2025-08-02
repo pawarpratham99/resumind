@@ -1,5 +1,4 @@
-
-# 🧠  Resumind
+🧠  Resumind
 
 An intuitive, AI-powered web app that helps users analyze and improve their resumes for better job matching, optimized formatting, and ATS (Applicant Tracking System) compatibility—built using cutting-edge web technologies.
 
@@ -86,6 +85,4 @@ install node_modules
 🔗 Visit the live site
 
    [Resumind](https://resumind1.vercel.app)
-
-
 
