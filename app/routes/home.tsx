@@ -63,12 +63,11 @@ export default function Home() {
       {!loadingResumes && resumes.length > 0 && (
         <div className="resumes-section">
           <div style={{ height: '600px', position: 'relative' }}>
-            <ResumeGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02}
           
           {resumes.map((resume) => (
               <ResumeCard key={resume.id} resume={resume} />
           ))}
-          />
+
           </div>
         </div>
       )}
