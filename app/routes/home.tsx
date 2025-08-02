@@ -62,12 +62,17 @@ export default function Home() {
 
       {!loadingResumes && resumes.length > 0 && (
         <div className="resumes-section">
+          <div style={{ height: '600px', position: 'relative' }}>
+            <ResumeGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02}
+          
           {resumes.map((resume) => (
               <ResumeCard key={resume.id} resume={resume} />
           ))}
+          />
+          </div>
         </div>
       )}
-      <ResumeGallery/>
+      
       {!loadingResumes && resumes?.length === 0 && (
           <div className="flex flex-col items-center justify-center mt-10 gap-4">
             <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
