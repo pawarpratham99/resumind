@@ -69,7 +69,7 @@ Make sure the following are installed on your machine:
 ### 🔗 Clone the Repo
 
 ```bash
-git clone https://github.com/pawarpratham99/ai-resume-analyzer.git
+git clone https://github.com/pawarpratham99/resumind.git
 
 cd resumind
 
