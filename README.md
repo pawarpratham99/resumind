@@ -83,5 +83,9 @@ install node_modules
 
     npm run dev
 
+🔗 Visit the live site
+
+   [Resumind](https://resumind1.vercel.app)
+
 
 
